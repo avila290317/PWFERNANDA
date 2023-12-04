@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="manifest" href="manifest.json">
+    <title>MiPortafolioDigital</title>
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Fernanda</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#aboutme" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.90909 0C0.862292 0 0 0.985477 0 2.18182C0 3.37816 0.862292 4.36364 1.90909 
+                    4.36364H12.0909C13.1377 4.36364 14 3.37816 14 2.18182C14 0.985477 13.1377 0 12.0909 
+                    0H1.90909ZM1.90909 1.45455H12.0909C12.4505 1.45455 12.7273 1.77089 12.7273 2.18182C12.7273 
+                    2.59275 12.4505 2.90909 12.0909 2.90909H1.90909C1.54953 2.90909 1.27273 2.59275 1.27273 
+                    2.18182C1.27273 1.77089 1.54953 1.45455 1.90909 1.45455ZM1.90909 5.81818C0.862292 5.81818 0 
+                    6.80366 0 8C0 9.19634 0.862292 10.1818 1.90909 10.1818H12.0909C13.1377 10.1818 14 9.19634 14 
+                    8C14 6.80366 13.1377 5.81818 12.0909 5.81818H1.90909ZM1.90909 7.27273H12.0909C12.4505 7.27273 
+                    12.7273 7.58907 12.7273 8C12.7273 8.41093 12.4505 8.72727 12.0909 8.72727H1.90909C1.54953 
+                    8.72727 1.27273 8.41093 1.27273 8C1.27273 7.58907 1.54953 7.27273 1.90909 7.27273ZM1.90909 
+                    11.6364C0.862292 11.6364 0 12.6218 0 13.8182C0 15.0145 0.862292 16 1.90909 16H12.0909C13.1377 
+                    16 14 15.0145 14 13.8182C14 12.6218 13.1377 11.6364 12.0909 11.6364H1.90909ZM1.90909 
+                    13.0909H12.0909C12.4505 13.0909 12.7273 13.4073 12.7273 13.8182C12.7273 14.2291 12.4505 
+                    14.5455 12.0909 14.5455H1.90909C1.54953 14.5455 1.27273 14.2291 1.27273 13.8182C1.27273 
+                    13.4073 1.54953 13.0909 1.90909 13.0909Z" fill="white"/>
+                    </svg>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="IMG_pd/SF.png" alt="">
+            </div>
+            <h1>Fernanda Florisel Vargas Alvarado </h1>
+            <h2>Ingeniera en Desarrollo y Gestión de Software</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/fernanda.alvarado.71619"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.5 0C1.56975 0 0 1.56975 0 3.5V28C0 29.9303 1.56975 
+                    31.5 3.5 31.5H15.0869H19.9746H28C29.9303 31.5 31.5 29.9303 31.5 28V3.5C31.5 
+                    1.56975 29.9303 0 28 0H3.5ZM3.5 3.5H28L28.0034 28H19.9746V21.0615H24.1138L24.729 
+                    16.2935H20.002V13.2549C20.002 11.8759 20.3863 10.9443 22.3638 10.9443H24.8623V6.68896C23.6461 
+                    6.56471 22.4249 6.50431 21.2017 6.50781C17.5722 6.50781 15.0869 8.72304 15.0869 
+                    12.79V16.3003H10.9854V21.0684H15.0869V28H3.5V3.5Z" fill="white"/>
+                    </svg></a>
+                <a href="https://instagram.com/ferflorvaral?igshid=MzMyNGUyNmU2YQ=="><svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.49023 0C3.82983 0 0 3.82471 0 8.49023V20.3848C0 25.0452 
+                    3.82471 28.875 8.49023 28.875H20.3848C25.0452 28.875 28.875 25.0503 
+                    28.875 20.3848V8.49023C28.875 3.82983 25.0503 0 20.3848 0H8.49023ZM8.49023 
+                    2.625H20.3848C23.6301 2.625 26.25 5.24487 26.25 8.49023V20.3848C26.25 23.6301 
+                    23.6301 26.25 20.3848 26.25H8.49023C5.24487 26.25 2.625 23.6301 2.625 
+                    20.3848V8.49023C2.625 5.24487 5.24487 2.625 8.49023 2.625ZM22.1895 5.49609C21.5281 5.49609 
+                    21 6.02417 21 6.68555C21 7.34692 21.5281 7.875 22.1895 7.875C22.8508 7.875 23.3789 
+                    7.34692 23.3789 6.68555C23.3789 6.02417 22.8508 5.49609 22.1895 5.49609ZM14.4375 
+                    6.5625C10.1052 6.5625 6.5625 10.1052 6.5625 14.4375C6.5625 18.7698 10.1052 22.3125 
+                    14.4375 22.3125C18.7698 22.3125 22.3125 18.7698 22.3125 14.4375C22.3125 10.1052 18.7698 
+                    6.5625 14.4375 6.5625ZM14.4375 9.1875C17.3547 9.1875 19.6875 11.5203 19.6875 
+                    14.4375C19.6875 17.3547 17.3547 19.6875 14.4375 19.6875C11.5203 19.6875 9.1875 
+                    17.3547 9.1875 14.4375C9.1875 11.5203 11.5203 9.1875 14.4375 9.1875Z" fill="white"/>
+                    </svg></a>
+                <a href="#"><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_3_10)">
+                    <path d="M3.57143 0C1.60749 0 0 1.60749 0 3.57143V26.4286C0 28.3925 1.60749 30 3.57143 
+                    30H26.4286C28.3925 30 30 28.3925 30 26.4286V3.57143C30 1.60749 28.3925 0 26.4286 
+                    0H3.57143ZM3.57143 1.42857H26.4286C27.6204 1.42857 28.5714 2.37966 28.5714 
+                    3.57143V26.4286C28.5714 27.6204 27.6204 28.5714 26.4286 28.5714H3.57143C2.37966 
+                    28.5714 1.42857 27.6204 1.42857 26.4286V3.57143C1.42857 2.37966 2.37966 1.42857 
+                    3.57143 1.42857ZM7.14286 5.00837C6.36056 5.00837 5.65659 5.2422 5.13532 5.6808C4.61406 
+                    6.11941 4.29409 6.77465 4.29409 7.47629C4.29409 8.81 5.45092 9.84971 6.92244 9.95257L6.92522 
+                    9.95393C6.99534 9.97786 7.06879 9.99057 7.14286 9.99164C8.76643 9.99164 9.99164 8.85436 
+                    9.99164 7.47629C9.9915 7.46371 9.991 7.45114 9.99021 7.43864C9.91757 6.08131 8.70743 5.00837 
+                    7.14286 5.00837ZM7.14286 6.4202C8.13729 6.4202 8.53 6.86431 8.57286 7.49443C8.56414 8.106 
+                    8.18579 8.57979 7.14286 8.57979C6.15328 8.57979 5.70591 8.073 5.70591 7.47629C5.70591 7.17793 
+                    5.81479 6.95307 6.04353 6.7606C6.27226 6.56814 6.63944 6.4202 7.14286 6.4202ZM5 10.7143C4.81056 
+                    10.7143 4.62889 10.7896 4.49494 10.9235C4.36099 11.0575 4.28574 11.2391 4.28571 
+                    11.4286V25C4.28574 25.1894 4.36099 25.3711 4.49494 25.5051C4.62889 25.639 4.81056 25.7143 5 
+                    25.7143H9.28571C9.47514 25.7143 9.65679 25.639 9.79079 25.5051C9.92471 25.3711 10 25.1894 10 
+                    25V20.8106V11.4286C10 11.2391 9.92471 11.0575 9.79079 10.9235C9.65679 10.7896 9.47514 10.7143 
+                    9.28571 10.7143H5ZM11.4286 10.7143C11.2391 10.7143 11.0575 10.7896 10.9235 10.9235C10.7896 
+                    1.0575 10.7143 11.2391 10.7143 11.4286V25C10.7143 25.1894 10.7896 25.3711 10.9235 
+                    25.5051C11.0575 25.639 11.2391 25.7143 11.4286 25.7143H15.7143C15.9037 25.7143 16.0854 25.639 
+                    16.2194 25.5051C16.3533 25.3711 16.4286 25.1894 16.4286 25V17.8571C16.4286 17.2645 16.5903 
+                    16.675 16.875 16.2891C17.1597 15.9031 17.5189 15.6715 18.2017 15.6836C18.9059 15.6957 19.2786 
+                    15.9369 19.5606 16.3156C19.8425 16.6942 20 17.2619 20 17.8571V25C20 25.1894 20.0753 25.3711 
+                    20.2092 25.5051C20.3432 25.639 20.5249 25.7143 20.7143 25.7143H25C25.1894 25.7143 25.3711 25.639
+                     25.5051 25.5051C25.639 25.3711 25.7143 25.1894 25.7143 25V17.3298C25.7143 15.2144 25.0877 
+                     13.5388 24.0136 12.4051C22.9396 11.2714 21.4459 10.7143 19.8661 10.7143C18.3646 10.7143 
+                     17.2221 11.2178 16.4286 11.7313V11.4286C16.4286 11.2391 16.3533 11.0575 16.2194 
+                     10.9235C16.0854 10.7896 15.9037 10.7143 15.7143 10.7143H11.4286ZM5.71429 
+                     12.1429H8.57143V20.8106V24.2857H5.71429V12.1429ZM12.1429 12.1429H15V13.2575C15.0001 
+                     13.4073 15.0471 13.5533 15.1347 13.6748C15.2222 13.7964 15.3458 13.8873 15.4878 
+                     13.9348C15.6299 13.9823 15.7832 13.9839 15.9263 13.9395C16.0693 13.8951 16.1947 
+                     13.8069 16.2849 13.6872C16.2849 13.6872 17.4066 12.1429 19.8661 12.1429C21.1184 
+                     12.1429 22.1924 12.559 22.9771 13.3873C23.7619 14.2156 24.2857 15.4916 24.2857 
+                     17.3298V24.2857H21.4286V17.8571C21.4286 17.0238 21.2289 16.1622 20.7073 15.4618C20.1857 
+                     14.7614 19.3084 14.2736 18.2269 14.255C17.1396 14.2357 16.2482 14.7336 15.7254 
+                     15.4422C15.2026 16.1509 15 17.0212 15 17.8571V24.2857H12.1429V12.1429Z" fill="white"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_3_10">
+                    <rect width="30" height="30" fill="white"/>
+                    </clipPath>
+                    </defs>
+                    </svg></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section id="aboutme" class="aboutme">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Fernanda Florisel vargas Alvardo es, </span>una persona dedicada y 
+                responsable, comprometida con la búsqueda constante de nuevos desafíos. 
+                Mi habilidad para la resolución de problemas y la organización del tiempo me 
+                permite abordar tareas de manera eficiente y efectiva. Además, mi enfoque 
+                práctico me ayuda a llevar a cabo proyectos de manera exitosa. Siempre estoy 
+                dispuesta a descubrir nuevos horizontes y aprender, lo que me impulsa a 
+                crecer personal y profesionalmente. En mis tiempos libre, disfruto de una 
+                variedad de actividades que me permiten expresarme y relajarme. Bailar danza 
+                folclórica me conecta con mi cultura y me llena de energía. La natación y el 
+                crossfit son mis opciones para mantenerme en forma y desafiar mis límites. 
+                También valoro mucho el tiempo con mis amigos, ya sea saliendo juntos o viendo 
+                series y películas. La música es una constante en mi vida, y siempre estoy en 
+                busca de nuevos sonidos. Por último, pasar tiempo con mi familia es una 
+                prioridad, ya que me brinda amor y apoyo incondicional.</p>
+
+                <div class="fila">
+                    <!-- datos personales -->
+                    <div class="col">
+                        <h3>Datos Personales</h3>
+                        <ul>
+                            <li>
+                                <strong>Fecha de Nacimiento</strong>
+                                19-04-2000
+                            </li>
+                            <li>
+                                <strong>Célular</strong>
+                                449 526 2927
+                            </li>
+                            <li>
+                                <strong>Teléfono Fijo</strong>
+                                458 987 1090
+                            </li>
+                            <li>
+                                <strong>Correo Electronico Personal</strong>
+                                ferflorvaral@gmail.com
+                            </li>
+                            <li>
+                                <strong>Correo Electronico Institusional</strong>
+                                2036001806@utna.edu.mx
+                            </li>
+                            <li>
+                                <strong>Dirección</strong>
+                                5 de Mayo #220, Col. Santa Cruz, Cosio, Ags.
+                            </li>
+                            <li>
+                                <strong>Cargo</strong>
+                                <span>Estidiante</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- interes -->
+                    <div class="col">
+                        <h3>Datos de Interés</h3>
+                        <div class="contenedor-interes">
+                            <div class="interes">
+                                <i class="fa-solid fa-plane"></i>
+                                <span>Viajar</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-headphones"></i>
+                                <span>Musica</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-person-hiking"></i>
+                                <span>Deportes</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-bowl-food"></i>
+                                <span>Comer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <button>
+                    <a download="CV" href="CV/curriculo.pdf">Descargar CV</a> <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="file">
+                <!-- Technicl SKILLS -->
+                <div class="col">
+                    <h3>Habilidades Tecnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Office</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>96%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Base de Datos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>62%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Danza Folclorica</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professional  -->
+                <div class="col">
+                    <h3>Aptitudes Profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Confidencialidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Resolución de problemas</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Liderazgo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>68%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Adaptabilidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>84%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Responsabilidad </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>38%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Peparatoria Area Humanidades</h4>
+                        <span class="casa">CBTA #103 "Saturnino Herran</span>
+                        <span class="fecha">2015 - 2018</span>
+                        <p>Realicé mis estudios de preparatoria en el municipio de Cosío, enfocándome 
+                            inicialmente en la especialidad de Informática. Sin embargo, durante el 
+                            último semestre, decidí cambiar mi enfoque y me incliné hacia el área de 
+                            Humanidades. Esta transición refleja mi interés en explorar diferentes campos 
+                            de conocimiento y mi disposición para adaptarme a nuevas perspectivas y 
+                            oportunidades educativas</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Carrera de Sobrecargo de Aviación</h4>
+                        <span class="casa">Centro de Estudios Aeronáutico "Alas Doradas"</span>
+                        <span class="fecha">2018 - 2019</span>
+                        <p>Después de concluir la preparatoria, opté por seguir mi pasión por la 
+                            aviación y decidí ingresar al centro de estudios aeronáuticos con el 
+                            objetivo de convertirme en auxiliar de vuelo. Esta elección representa 
+                            mi entusiasmo por trabajar en la industria aeronáutica y servir en un 
+                            papel fundamental en la seguridad y el confort de los pasajeros aéreos</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Ingenieria en desarrollo y Gestión de Software </h4>
+                        <span class="casa">Universidad Tecnológica del Norte de Aguascalientes</span>
+                        <span class="fecha">2020 - 2024</span>
+                        <p>Tras considerar diferentes opciones, decidí explorar una segunda carrera y 
+                            actualmente me encuentro en el décimo cuatrimestre de Ingeniería en Desarrollo 
+                            y Gestión de Software. Esta elección refleja mi versatilidad y el deseo de adquirir 
+                            habilidades en un campo en constante evolución, lo que me brinda la oportunidad 
+                            de diversificar mis conocimientos y perspectivas educativas</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experencia Laboral</h3>
+                    <div class="item der">
+                        <h4>Asistente de Veterinaria</h4>
+                        <span class="casa">Veterinaria "La Herradura"</span>
+                        <span class="fecha">2023</span>
+                        <p>Encargada de venta en forraje, medicamento y documentación de traslado de animales 
+                            de granja.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Asistente de Ventas</h4>
+                        <span class="casa">Tienda de Regalos "Kelindo"</span>
+                        <span class="fecha">2021 - 2023</span>
+                        <p>Encargada de ventas de productos de belleza, material para aplicación de uñas y regalos 
+                            para cualquier genero y edades. Responsable de reportes de cuentas y supervisión.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Asistente en Ventas</h4>
+                        <span class="casa"> Cyber "Max"</span>
+                        <span class="fecha">2020 - 2020</span>
+                        <p>Atención al cliente en servicio  de copias, impresiones, escáner y mas referente a la computación</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTAFOLIO -->
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="IMG_pd/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Sobrecargo de Aviación</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="IMG_pd/p3.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Regional UTNA</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="IMG_pd/p5.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Presentación de Bienvenida</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="IMG_pd/p4.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Modelo de los 20's</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="IMG_pd/p10.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Reunión Familiar</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="IMG_pd/p11.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Estudios Universales</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="IMG_pd/p2.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Dia del Ingeniero</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="IMG_pd/p6.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Concurso de Natación</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="IMG_pd/p9.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Sesión de Fotos</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="file">
+                <!-- Formulario -->
+                <div class="col">
+                    <input id="name" type="text" placeholder="Tu Nombre">
+                    <input id="cellphone" type="text" placeholder="Numero Telefonico">
+                    <input id="email" type="text" placeholder="Correo Electronico" id="mail">
+                    <input id="asunto" type="text" placeholder="Asunto">
+                    <textarea name="" id="messaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button onclick="enviarMail()">
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="IMG_pd/ubicacion.jpg" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                5 de Mayo #220, Col. Sta. Cruz, Cosio, Ags.
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 449 526 29 27
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: ferflorvaral@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M8 9.53278L1.70661 17.6239C1.31658 18.1254 
+                0.682543 18.1254 0.292518 17.6239C-0.0975061 17.1225 -0.0975061 16.3073 0.292518 
+                15.8059L7.29296 6.80573C7.68298 6.30301 8.31702 6.30301 8.70704 6.80573L15.7075 
+                15.8059C16.0975 16.3073 16.0975 17.1225 15.7075 17.6239C15.3175 18.1254 14.6834 18.1254 14.2934 
+                17.6239L8 9.53278ZM8 3.10409L1.70661 11.1952C1.31658 11.6967 0.682543 11.6967 0.292518 
+                11.1952C-0.0975061 10.6938 -0.0975061 9.87864 0.292518 9.3772L7.29296 0.377042C7.68298 
+                -0.125681 8.31702 -0.125681 8.70704 0.377042L15.7075 9.3772C16.0975 9.87864 16.0975 10.6938 
+                15.7075 11.1952C15.3175 11.6967 14.6834 11.6967 14.2934 11.1952L8 3.10409Z" fill="white"/>
+                </svg>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/fernanda.alvarado.71619"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.5 0C1.56975 0 0 1.56975 0 3.5V28C0 29.9303 1.56975 
+                31.5 3.5 31.5H15.0869H19.9746H28C29.9303 31.5 31.5 29.9303 31.5 28V3.5C31.5 
+                1.56975 29.9303 0 28 0H3.5ZM3.5 3.5H28L28.0034 28H19.9746V21.0615H24.1138L24.729 
+                16.2935H20.002V13.2549C20.002 11.8759 20.3863 10.9443 22.3638 10.9443H24.8623V6.68896C23.6461 
+                6.56471 22.4249 6.50431 21.2017 6.50781C17.5722 6.50781 15.0869 8.72304 15.0869 
+                12.79V16.3003H10.9854V21.0684H15.0869V28H3.5V3.5Z" fill="white"/>
+                </svg></i></a>
+            <a href="#https://instagram.com/ferflorvaral?igshid=MzMyNGUyNmU2YQ=="><svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.49023 0C3.82983 0 0 3.82471 0 8.49023V20.3848C0 25.0452 
+                3.82471 28.875 8.49023 28.875H20.3848C25.0452 28.875 28.875 25.0503 
+                28.875 20.3848V8.49023C28.875 3.82983 25.0503 0 20.3848 0H8.49023ZM8.49023 
+                2.625H20.3848C23.6301 2.625 26.25 5.24487 26.25 8.49023V20.3848C26.25 23.6301 
+                23.6301 26.25 20.3848 26.25H8.49023C5.24487 26.25 2.625 23.6301 2.625 
+                20.3848V8.49023C2.625 5.24487 5.24487 2.625 8.49023 2.625ZM22.1895 5.49609C21.5281 5.49609 
+                21 6.02417 21 6.68555C21 7.34692 21.5281 7.875 22.1895 7.875C22.8508 7.875 23.3789 
+                7.34692 23.3789 6.68555C23.3789 6.02417 22.8508 5.49609 22.1895 5.49609ZM14.4375 
+                6.5625C10.1052 6.5625 6.5625 10.1052 6.5625 14.4375C6.5625 18.7698 10.1052 22.3125 
+                14.4375 22.3125C18.7698 22.3125 22.3125 18.7698 22.3125 14.4375C22.3125 10.1052 18.7698 
+                6.5625 14.4375 6.5625ZM14.4375 9.1875C17.3547 9.1875 19.6875 11.5203 19.6875 
+                14.4375C19.6875 17.3547 17.3547 19.6875 14.4375 19.6875C11.5203 19.6875 9.1875 
+                17.3547 9.1875 14.4375C9.1875 11.5203 11.5203 9.1875 14.4375 9.1875Z" fill="white"/>
+                </svg></a>
+            <a href="#"><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_3_10)">
+                <path d="M3.57143 0C1.60749 0 0 1.60749 0 3.57143V26.4286C0 28.3925 1.60749 30 3.57143 
+                30H26.4286C28.3925 30 30 28.3925 30 26.4286V3.57143C30 1.60749 28.3925 0 26.4286 
+                0H3.57143ZM3.57143 1.42857H26.4286C27.6204 1.42857 28.5714 2.37966 28.5714 
+                3.57143V26.4286C28.5714 27.6204 27.6204 28.5714 26.4286 28.5714H3.57143C2.37966 
+                28.5714 1.42857 27.6204 1.42857 26.4286V3.57143C1.42857 2.37966 2.37966 1.42857 
+                3.57143 1.42857ZM7.14286 5.00837C6.36056 5.00837 5.65659 5.2422 5.13532 5.6808C4.61406 
+                6.11941 4.29409 6.77465 4.29409 7.47629C4.29409 8.81 5.45092 9.84971 6.92244 9.95257L6.92522 
+                9.95393C6.99534 9.97786 7.06879 9.99057 7.14286 9.99164C8.76643 9.99164 9.99164 8.85436 
+                9.99164 7.47629C9.9915 7.46371 9.991 7.45114 9.99021 7.43864C9.91757 6.08131 8.70743 5.00837 
+                7.14286 5.00837ZM7.14286 6.4202C8.13729 6.4202 8.53 6.86431 8.57286 7.49443C8.56414 8.106 
+                8.18579 8.57979 7.14286 8.57979C6.15328 8.57979 5.70591 8.073 5.70591 7.47629C5.70591 7.17793 
+                5.81479 6.95307 6.04353 6.7606C6.27226 6.56814 6.63944 6.4202 7.14286 6.4202ZM5 10.7143C4.81056 
+                10.7143 4.62889 10.7896 4.49494 10.9235C4.36099 11.0575 4.28574 11.2391 4.28571 
+                11.4286V25C4.28574 25.1894 4.36099 25.3711 4.49494 25.5051C4.62889 25.639 4.81056 25.7143 5 
+                25.7143H9.28571C9.47514 25.7143 9.65679 25.639 9.79079 25.5051C9.92471 25.3711 10 25.1894 10 
+                25V20.8106V11.4286C10 11.2391 9.92471 11.0575 9.79079 10.9235C9.65679 10.7896 9.47514 10.7143 
+                9.28571 10.7143H5ZM11.4286 10.7143C11.2391 10.7143 11.0575 10.7896 10.9235 10.9235C10.7896 
+                1.0575 10.7143 11.2391 10.7143 11.4286V25C10.7143 25.1894 10.7896 25.3711 10.9235 
+                25.5051C11.0575 25.639 11.2391 25.7143 11.4286 25.7143H15.7143C15.9037 25.7143 16.0854 25.639 
+                16.2194 25.5051C16.3533 25.3711 16.4286 25.1894 16.4286 25V17.8571C16.4286 17.2645 16.5903 
+                16.675 16.875 16.2891C17.1597 15.9031 17.5189 15.6715 18.2017 15.6836C18.9059 15.6957 19.2786 
+                15.9369 19.5606 16.3156C19.8425 16.6942 20 17.2619 20 17.8571V25C20 25.1894 20.0753 25.3711 
+                20.2092 25.5051C20.3432 25.639 20.5249 25.7143 20.7143 25.7143H25C25.1894 25.7143 25.3711 25.639
+                 25.5051 25.5051C25.639 25.3711 25.7143 25.1894 25.7143 25V17.3298C25.7143 15.2144 25.0877 
+                 13.5388 24.0136 12.4051C22.9396 11.2714 21.4459 10.7143 19.8661 10.7143C18.3646 10.7143 
+                 17.2221 11.2178 16.4286 11.7313V11.4286C16.4286 11.2391 16.3533 11.0575 16.2194 
+                 10.9235C16.0854 10.7896 15.9037 10.7143 15.7143 10.7143H11.4286ZM5.71429 
+                 12.1429H8.57143V20.8106V24.2857H5.71429V12.1429ZM12.1429 12.1429H15V13.2575C15.0001 
+                 13.4073 15.0471 13.5533 15.1347 13.6748C15.2222 13.7964 15.3458 13.8873 15.4878 
+                 13.9348C15.6299 13.9823 15.7832 13.9839 15.9263 13.9395C16.0693 13.8951 16.1947 
+                 13.8069 16.2849 13.6872C16.2849 13.6872 17.4066 12.1429 19.8661 12.1429C21.1184 
+                 12.1429 22.1924 12.559 22.9771 13.3873C23.7619 14.2156 24.2857 15.4916 24.2857 
+                 17.3298V24.2857H21.4286V17.8571C21.4286 17.0238 21.2289 16.1622 20.7073 15.4618C20.1857 
+                 14.7614 19.3084 14.2736 18.2269 14.255C17.1396 14.2357 16.2482 14.7336 15.7254 
+                 15.4422C15.2026 16.1509 15 17.0212 15 17.8571V24.2857H12.1429V12.1429Z" fill="white"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_3_10">
+                <rect width="30" height="30" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg></i></a>
+        </div>
+    </footer>
+
+    
+<script src="JS/index.js"></script>
+<script src="JS/app.js"></script>
+    
+</body>
+</html>
