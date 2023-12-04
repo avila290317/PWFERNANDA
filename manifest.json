@@ -1,0 +1,52 @@
+{
+    
+    "name":"PWA Portafolio Digital",
+    "short_name":"PWA Portafolio",
+    "start_url":"/index.html",
+    "description":"Este es mi portafolio digital con toda mi informacion personal, academica, profesional y laboral",
+    "display":"standalone",
+    "orientation":"portrait",
+    "icons": [
+        {
+            "src":"IMG_pd/icons/Icon-72.png",
+            "type":"image/png",
+            "sizes":"72x72"
+        },
+        {
+            "src":"IMG_pd/icons/Icon-120.png",
+            "type":"image/png",
+            "sizes":"120x120"
+        },
+        {
+            "src":"IMG_pd/icons/Icon-128.png",
+            "type":"image/png",
+            "sizes":"128x128"
+        },
+        {
+            "src":"IMG_pd/icons/Icon-144.png",
+            "type":"image/png",
+            "sizes":"144x144"
+        },
+        {
+            "src":"IMG_pd/icons/Icon-152.png",
+            "type":"image/png",
+            "sizes":"152x152"
+        },
+        {
+            "src":"IMG_pd/icons/Icon-192.png",
+            "type":"image/png",
+            "sizes":"196x196"
+        },
+        {
+            "src":"IMG_pd/icons/Icon-256.png",
+            "type":"image/png",
+            "sizes":"256x256"
+        },
+        {
+            "src":"IMG_pd/icons/Icon-512.png",
+            "type":"image/png",
+            "sizes":"512x512"
+        }
+    ]
+    
+}
